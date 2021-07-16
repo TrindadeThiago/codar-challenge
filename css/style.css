@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+button {
+  border: none;
+  background: #D6000D;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 10px 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.logo{
+  font-weight: 900;
+  font-size: 50px;
+  font-family: sans;
+}
+
+.logo .logo-text{
+  font-size: 58px;
+  font-weight: 700;
+  font-style: italic;
+
+  color: #D6000D;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 50px 30px
+}
+
+#header .logo{
+  font-weight: 900;
+  font-size: 50px;
+  font-family: sans;
+}
+
+#header .logo .logo-text{
+  font-size: 58px;
+  font-weight: 700;
+  font-style: italic;
+
+  color: #D6000D;
+}
+
+#header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header ul li {
+  margin-left: 50px;
+
+  font-size: 28px;
+  font-weight: 500;
+  color: #8B8B8B;
+}
+
+#header ul li button {
+  font-size: 28px;
+  font-weight: 500;
+
+  width: 200px;
+}
+
+#main {
+  max-width: 1250px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+#main .image {
+  width: 600px;
+}
+
+#main .aside p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#main .aside h2 {
+  font-size: 52px;
+  color: #D6000D;
+}
+
+#main .aside button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+
+  width: 300px;
+  height: 50px;
+
+  margin-top: 60px;
+}
+
+#services {
+  max-width: 1250px;
+  margin: 300px auto;
+}
+
+#services .service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#services .service-item li {
+  font-size: 28px;
+  font-weight: 500;
+  color: #4C4B4B;
+}
+
+#services .service-item li i {
+  margin-right: 40px;
+  margin-bottom: 20px;
+  color: #D6000D;
+}
+
+#services .service-item img {
+  width: 500px;
+}
+
+#services form h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#services form input {
+  border: none;
+  border-radius: 15px;
+  background: #DCDCDC;
+
+  padding:10px 30px;
+
+  height: 50px;
+}
+
+#services form input::placeholder {
+  font-size: 18px;
+  font-weight: 500
+}
+
+#services form button {
+  margin-left: 15px;
+  font-size: 20px;
+  height: 50px;
+}
+
+#contact {
+  max-width: 1250px;
+  margin: 300px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact .card {
+  background: #DCDCDC;
+  border-radius: 15px;
+  max-width: 600px;
+  padding: 40px 40px;
+
+  display: flex;
+}
+
+#contact .card .profile-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  background: #D6000D;
+}
+
+#contact .card .info {
+  margin-left: 30px;
+  max-width: 350px
+}
+
+#contact .card .info .description {
+  color: #000;
+}
+
+#contact .card .info .name {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+#contact .card .info .company {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+footer {
+  background: #000;
+  color: #ccc;
+
+  padding: 80px 200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer .box {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .box h4 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+footer .box .logo {
+  font-size: 58px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+footer .box p {
+  margin: 10px 0;
+}
+
+footer .box p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .box p.underline {
+  text-decoration: underline;
+}
+
+footer .box .social-medias {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .box .social-medias i {
+  font-size: 38px;
+  color: #D6000D;
+}
